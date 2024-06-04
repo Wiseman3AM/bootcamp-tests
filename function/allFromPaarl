@@ -1,0 +1,22 @@
+// Function to find all registration numbers for Paarl
+function allPaarl(regNumbers) {
+  // Split the input string into an array of registration numbers
+  const regArray = regNumbers.split(', '); // Split on comma and space
+  const paarlNumbers = []; // Initialize an empty array to store Paarl numbers
+
+  // Loop through each registration number
+  for (const reg of regArray) {
+    // Check if the registration number starts with 'CJ'
+    if (reg.startsWith('CJ')) {
+      paarlNumbers.push(reg); // Add to the list if it's from Paarl
+    }
+  }
+
+  return paarlNumbers; // Return the list of Paarl registration numbers
+}
+
+// Test the allPaarl function with assertions
+const regNumbers = 'CL 900, CJ 678 543, CA 34567, CJ 67890, CN 7864';
+
+const regNumbersForPaarl = allPaarl(regNumbers);
+
