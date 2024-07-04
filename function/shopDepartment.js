@@ -63,7 +63,7 @@ function mostProfitableDepartment(salesData) {
       }
  return currentSalesDepartment
 } 
-console.log(mostProfitableDepartment(salesData))
+
 /* 2nd FUNCTION
 -----------------------------------------------------------------------------------------------------------------------------------------*/
 function mostProfitableDay(salesData) {
@@ -97,4 +97,5 @@ function mostProfitableDay(salesData) {
   return profitableDay;
 }
 
+console.log(mostProfitableDepartment(salesData))
 console.log(mostProfitableDay(salesData));

@@ -17,6 +17,8 @@ function allPaarl(regNumbers) {
 
 // Test the allPaarl function with assertions
 const regNumbers = 'CL 900, CJ 678 543, CA 34567, CJ 67890, CN 7864';
+const regNumbers2 = 'CL 900, CJ 7840, CJ 1230, CN 678 543, CJ 34567, CN 67890, CJ 7864';
 
-const regNumbersForPaarl = allPaarl(regNumbers);
+console.log(allPaarl(regNumbers))
+console.log(allPaarl(regNumbers2))
 

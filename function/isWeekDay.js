@@ -4,3 +4,6 @@ function isWeekday(day){
     }else {return true;
         }
   }
+
+  console.log(isWeekday(Monday))
+  console.log(isWeekday(Sunday))
